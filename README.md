@@ -6,4 +6,4 @@
 
 `npm run build`
 
-![preview-cookchef.png](docs%2Fpreview-cookchef.png)
+![preview-cookchef.png](./docs/preview-cookchef.png)
