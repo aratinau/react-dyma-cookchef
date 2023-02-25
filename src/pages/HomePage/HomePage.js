@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import styles from './Content.module.scss';
-import Recipe from './Recipe';
-import { data } from '../data/recipes';
+import styles from './HomePage.module.scss';
+import Recipe from './components/Recipe/Recipe';
+import { data } from '../../data/recipes';
 
-export default function Content() {
+export default function HomePage() {
   const recipes = data;
   const [filter, setFilter] = useState('');
 
